@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2d3142;
+    color: #fff;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sub-heading {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 2rem auto;
+    max-width: 80%;
+    font-size: 1rem;
+  }
+  
+  .sub-heading .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sub-heading img {
+    max-height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px; 
+  }
+  
+  .sub-heading .text {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .sub-heading .right.otras-sabanas {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 400px;
+  }
+  
+  .btn-custom {
+    background-color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    color: black;
+    border-radius: 5px;
+    margin: 3rem auto;
+    display: block;
+    width: 340px;
+  }
+  
+  .card {
+    height: 250px;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .card img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  .card ul li {
+    margin: 5px 0;
+    text-align: left;
+  }
+  
+  .eco-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+  }
+  
+  .eco-card .content {
+    flex: 1;
+  }
+  
+  .eco-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .eco-card p {
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  
+  .move-closer-left {
+    margin-left: -50px;
+  }
+  
+  .move-closer-right {
+    margin-right: -50px;
+  }
+  
+  .row .col-md-3:nth-child(3) {
+    margin-left: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .sub-heading {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .sub-heading .right.otras-sabanas {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  
+    .btn-custom {
+      width: 90%;
+    }
+  
+    .card {
+      max-width: 90%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+  
+    .move-closer-left,
+    .move-closer-right {
+      margin: 0;
+    }
+  
+    .row {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .eco-card {
+      flex-direction: column;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .eco-card img {
+      margin-bottom: 1rem;
+      width: 100%;
+      max-width: 150px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+  
+    .sub-heading {
+      flex-direction: column;
+    }
+  
+    .btn-custom {
+      padding: 0.6rem 1rem;
+      font-size: 0.9rem;
+    }
+  
+    .eco-card img {
+      max-width: 120px;
+    }
+  
+    .row .col-md-3:nth-child(3) {
+      margin-left: 0;
+    }
+  }
